@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Yashwant Kumar - Portfolio Website
 
-## Getting Started
+A modern, responsive portfolio website built with Next.js and Tailwind CSS showcasing skills, experience, education, and projects.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Modern Design**: Clean, professional design with smooth animations
+- **Responsive**: Fully responsive layout that works on all devices
+- **Dark Mode**: Automatic dark mode support
+- **Smooth Scrolling**: Seamless navigation between sections
+- **Interactive**: Hover effects and engaging user interface
+- **Blog Integration**: Built-in blog functionality with external data
+- **SEO Optimized**: Proper meta tags and semantic HTML structure
+
+## 🛠️ Built With
+
+- **Framework**: Next.js 16
+- **Styling**: Tailwind CSS
+- **Icons**: Custom SVG icons
+- **Fonts**: Geist Sans & Geist Mono
+- **Animations**: CSS transitions and transforms
+
+## 📱 Sections
+
+- **Hero**: Eye-catching introduction with call-to-action buttons
+- **About**: Personal introduction and key statistics
+- **Skills**: Technical skills with interactive progress bars
+- **Experience**: Professional timeline with achievements
+- **Education**: Academic background and certifications
+- **Blog**: Dynamic blog posts from external API
+- **Contact**: Contact form and social media links
+
+## 🚀 Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## 📂 Project Structure
+
+```
+src/
+├── app/
+│   ├── components/          # Portfolio components
+│   │   ├── Hero.js         # Landing hero section
+│   │   ├── About.js        # About me section
+│   │   ├── Skills.js       # Skills showcase
+│   │   ├── Experience.js   # Work experience timeline
+│   │   ├── Education.js    # Education & certifications
+│   │   └── Contact.js      # Contact form & info
+│   ├── blog/              # Blog section
+│   │   ├── components/
+│   │   │   └── Posts.js   # Blog posts component
+│   │   └── page.js        # Blog page
+│   ├── globals.css        # Global styles
+│   ├── layout.js          # Root layout with navigation
+│   └── page.js            # Homepage
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Customization
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+To customize this portfolio for your own use:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Personal Information**: Update personal details in all components
+2. **Skills**: Modify the skills array in `Skills.js`
+3. **Experience**: Update work history in `Experience.js`
+4. **Education**: Modify education data in `Education.js`
+5. **Colors**: Adjust the color scheme in Tailwind classes
+6. **Content**: Replace placeholder content with your own
 
-## Learn More
+## 📧 Contact
 
-To learn more about Next.js, take a look at the following resources:
+- **Email**: kumar24.yashwant@gmail.com
+- **LinkedIn**: [Your LinkedIn Profile]
+- **GitHub**: [Your GitHub Profile]
+- **Twitter**: [Your Twitter Profile]
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📄 License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is open source and available under the [MIT License](LICENSE).
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built with ❤️ using Next.js and Tailwind CSS
