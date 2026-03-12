@@ -163,7 +163,12 @@ export default function Education() {
                       Issued: {cert.date}
                     </p>
                     {cert.url && (
-                      <div className="flex items-center text-blue-600 dark:text-blue-400 text-sm">
+                      <a
+                        href={cert.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center text-blue-600 dark:text-blue-400 text-sm hover:text-blue-700 dark:hover:text-blue-300 transition-colors cursor-pointer"
+                      >
                         <svg
                           className="w-4 h-4 mr-1"
                           fill="none"
@@ -178,7 +183,7 @@ export default function Education() {
                           />
                         </svg>
                         View Credential
-                      </div>
+                      </a>
                     )}
                   </div>
                 </div>
@@ -191,7 +196,7 @@ export default function Education() {
               <ul className="space-y-2">
                 <li className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-white rounded-full"></div>
-                  <span>AIRSS Gen AI (ExxonMobil)</span>
+                  <span>Enterprise AI Solution (Client project)</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-white rounded-full"></div>

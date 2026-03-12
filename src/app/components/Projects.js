@@ -3,7 +3,7 @@
 export default function Projects() {
   const projects = [
     {
-      title: "AIRSS Gen AI (ExxonMobil)",
+      title: "Enterprise AI Solution (Client project)",
       company: "Ernst & Young",
       description:
         "Integrated GenAI features via Azure AI Foundry with REST endpoints. Implemented request tracing, error handling, and guarded prompts for reliability. Enhanced accessibility compliance and performance optimization.",

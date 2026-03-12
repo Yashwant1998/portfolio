@@ -234,26 +234,6 @@ export default function About() {
                   <div
                     className={`text-3xl font-bold ${currentTheme === "brutalist" ? "font-black" : ""}`}
                   >
-                    25+
-                  </div>
-                  <div
-                    className={`${
-                      currentTheme === "glassmorphism"
-                        ? "text-white/80"
-                        : currentTheme === "cyberpunk"
-                          ? "text-green-300"
-                          : currentTheme === "brutalist"
-                            ? "text-black"
-                            : "text-blue-100"
-                    }`}
-                  >
-                    Projects Delivered
-                  </div>
-                </div>
-                <div className="text-center">
-                  <div
-                    className={`text-3xl font-bold ${currentTheme === "brutalist" ? "font-black" : ""}`}
-                  >
                     5+
                   </div>
                   <div
@@ -274,7 +254,7 @@ export default function About() {
                   <div
                     className={`text-3xl font-bold ${currentTheme === "brutalist" ? "font-black" : ""}`}
                   >
-                    40%
+                    120+
                   </div>
                   <div
                     className={`${
@@ -287,7 +267,27 @@ export default function About() {
                             : "text-blue-100"
                     }`}
                   >
-                    Performance Improved
+                    LeetCode Problems
+                  </div>
+                </div>
+                <div className="text-center">
+                  <div
+                    className={`text-3xl font-bold ${currentTheme === "brutalist" ? "font-black" : ""}`}
+                  >
+                    50+
+                  </div>
+                  <div
+                    className={`${
+                      currentTheme === "glassmorphism"
+                        ? "text-white/80"
+                        : currentTheme === "cyberpunk"
+                          ? "text-green-300"
+                          : currentTheme === "brutalist"
+                            ? "text-black"
+                            : "text-blue-100"
+                    }`}
+                  >
+                    Developers Mentored
                   </div>
                 </div>
                 <div className="text-center">
