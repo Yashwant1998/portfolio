@@ -3,22 +3,47 @@
 export default function Projects() {
   const projects = [
     {
-      title: "Enterprise AI Solution (Client project)",
+      title: "Digital Twin Executive Platform — ADNOC",
       company: "Ernst & Young",
       description:
-        "Integrated GenAI features via Azure AI Foundry with REST endpoints. Implemented request tracing, error handling, and guarded prompts for reliability. Enhanced accessibility compliance and performance optimization.",
+        "Helped define the frontend architecture for an executive digital-twin platform — folder structure, routing across Exec/BLD/GC/Asset views, state-management split (global / local / URL), and RBAC enforcement at the UI layer. Built the React ↔ Unity WebGL ↔ NVIDIA Omniverse integration layer with typed message-passing, scene-ready/error/retry handling, and bidirectional selection sync between the UI and 3D scenes.",
       technologies: [
-        "React",
+        "React 18",
         "TypeScript",
-        "Redux Toolkit",
-        "Redux Thunk",
-        "Azure AI",
+        "Module Federation",
+        "Unity WebGL",
+        "NVIDIA Omniverse",
       ],
       achievements: [
-        "GenAI integration with Azure AI Foundry",
-        "Enhanced accessibility compliance",
-        "Performance optimization with critical CSS",
-        "Improved reliability with error handling",
+        "Defined frontend architecture across Exec/BLD/GC/Asset views with RBAC at the UI layer",
+        "Built React ↔ Unity WebGL ↔ NVIDIA Omniverse integration with typed message-passing and bidirectional selection sync",
+        "Designed multi-level dashboard hierarchy (Exec KPI → BLD → GC drill-downs) with reusable KPI cards and preserved context",
+        "Implemented secure session/access layer — SSO, role-based protected routes, and RBAC-gated chatbot & Kognitwin Surface iframe",
+        "Integrated Data Hub APIs with mapped response models, loading/empty/error/retry states, and global fallback-UI strategy",
+      ],
+      type: "Enterprise",
+    },
+    {
+      title: "AIRSS Gen AI — ExxonMobil",
+      company: "Ernst & Young",
+      description:
+        "Led frontend delivery of a large-scale enterprise SPA — metric dashboards, document management, user administration, and GenAI-powered workflows on Azure AI — driving code reviews and team coding standards. Built the application's state and data layer with Redux Toolkit slices, Redux-Saga for async side effects, and an Axios-based service layer reused by the wider team.",
+      technologies: [
+        "React 18",
+        "TypeScript",
+        "Redux Toolkit",
+        "Redux-Saga",
+        "Azure AI",
+        "Vite",
+        "MUI",
+      ],
+      achievements: [
+        "Led frontend delivery of a large-scale enterprise SPA with GenAI-powered workflows on Azure AI",
+        "Built state/data layer with Redux Toolkit, Redux-Saga, and Axios service layer reused across teams",
+        "Developed reusable component library (PageContainer, SectionHeader, MetricGrid, ProgressBar, StatusBadge, DataTable) removing 30–40% UI duplication",
+        "Implemented secure access with Microsoft MSAL SSO, token-based APIs, protected routes, and idle-session timeout",
+        "Migrated from CRA to Vite for faster dev startup + HMR; set up Jest/RTL, ESLint (Airbnb + TS), Prettier, and Husky hooks",
+        "Shipped rich data experiences with AG Grid, MUI X DataGrid, Recharts, react-dnd, and i18next (English/Spanish)",
       ],
       type: "Enterprise",
     },

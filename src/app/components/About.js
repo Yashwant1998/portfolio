@@ -109,7 +109,7 @@ export default function About() {
                           : "text-gray-900 dark:text-white"
               }`}
             >
-              Hello! I'm Yashwant, a passionate frontend developer who loves
+              Hello! I'm Yashwant, a passionate frontend engineer who loves
               crafting exceptional user experiences.
             </h3>
             <p
@@ -274,7 +274,7 @@ export default function About() {
                   <div
                     className={`text-3xl font-bold ${currentTheme === "brutalist" ? "font-black" : ""}`}
                   >
-                    50+
+                    5+
                   </div>
                   <div
                     className={`${
@@ -294,7 +294,7 @@ export default function About() {
                   <div
                     className={`text-3xl font-bold ${currentTheme === "brutalist" ? "font-black" : ""}`}
                   >
-                    3
+                    7+
                   </div>
                   <div
                     className={`${
@@ -307,7 +307,7 @@ export default function About() {
                             : "text-blue-100"
                     }`}
                   >
-                    Major Companies
+                    Projects Delivered
                   </div>
                 </div>
               </div>

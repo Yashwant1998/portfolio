@@ -196,15 +196,11 @@ export default function Education() {
               <ul className="space-y-2">
                 <li className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-white rounded-full"></div>
+                  <span>Digital Twin Executive Platform (Client Project)</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <div className="w-2 h-2 bg-white rounded-full"></div>
                   <span>Enterprise AI Solution (Client project)</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-white rounded-full"></div>
-                  <span>TestMate - Test Management</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-white rounded-full"></div>
-                  <span>MovieMate - AI Movie Discovery</span>
                 </li>
               </ul>
             </div>

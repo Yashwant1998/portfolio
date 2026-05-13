@@ -3,23 +3,30 @@
 export default function Experience() {
   const experiences = [
     {
-      title: "Application System Engineer",
+      title: "Technical Lead — Frontend",
       company: "Ernst & Young (EY) GDS",
       period: "Jul 2024 - Present",
       description:
-        "Developing React and TypeScript UI with RESTful API integrations, AI-driven workflows, and reusable component design. Leading performance optimization initiatives and accessibility compliance.",
+        "Leading frontend architecture and delivery for enterprise React/TypeScript platforms — micro-frontends on Nx, Next.js App Router with RSC, performance and Core Web Vitals workstreams, secure auth, and team-wide quality standards.",
       technologies: [
         "React",
         "TypeScript",
-        "Redux Toolkit",
-        "Azure AI",
-        "REST APIs",
+        "Next.js (App Router + RSC)",
+        "Module Federation",
+        "Nx",
+        "RTK Query",
+        "Vitest",
+        "Playwright",
       ],
       achievements: [
-        "Reduced development time for new UI features by 40%",
-        "Implemented modular component architecture",
-        "Enhanced performance with lazy loading and memoization",
-        "Improved accessibility compliance and performance optimization",
+        "Contributed to migration of a monolithic React/TS app to a Module Federation micro-frontend platform on Nx, enabling 4 teams to deploy independently and cutting lead time from 11 to 4 days",
+        "Shaped architecture via ADRs (Next.js App Router + RSC, RTK Query, design-system patterns) — several adopted across sibling programs",
+        "Drove Core Web Vitals: LCP 4.1s → 1.6s, INP 480ms → 140ms, bundle 2.3MB → 1.1MB via code-splitting, RSC streaming, route prefetching, and grid virtualization",
+        "Integrated Power BI and Tableau dashboards securely into core product workflows",
+        "Built a typed BFF + OpenAPI codegen layer, eliminating ~6k lines of hand-written API glue and a full class of runtime type errors",
+        "Set up frontend quality & release pipeline — Vitest + Playwright + Chromatic in CI, Sentry RUM with error-budget SLOs, LaunchDarkly canary releases",
+        "Improved security & accessibility — CSP, OIDC via MSAL, Snyk scanning, and WCAG 2.2 AA remediation across the flagship app",
+        "Mentored 3–4 engineers, ran code reviews, and helped define internal coding standards adopted by the team",
       ],
     },
     {
